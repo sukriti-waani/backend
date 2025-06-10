@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "javascript",
+    "backend",
+    "suk"
+  ],
+  "homepage": "https://github.com/sukriti-waani/backend#readme",
+  "bugs": {
+    "url": "https://github.com/sukriti-waani/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukriti-waani/backend.git"
+  },
+  "license": "ISC",
+  "author": "Sukriti Waani",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
