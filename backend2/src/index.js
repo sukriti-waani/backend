@@ -1,10 +1,11 @@
 // require('dotenv').config({path: './env'})
 import dotenv from "dotenv"; // Import dotenv for loading env variables
 import connectDB from "./db/index.js"; // Import the connectDB function from your local db folder
+import { app } from "./app.js"; // Import the app from your local app folder
 
 // Load environment variables from .env file
 dotenv.config({
-  path: "./.env", 
+  path: "./.env",
 });
 
 // Call connectDB to connect to MongoDB

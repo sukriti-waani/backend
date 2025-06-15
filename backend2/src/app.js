@@ -40,5 +40,15 @@ app.use(express.static("public"));
 // Very useful for authentication, session management, or tracking user preferences.
 app.use(cookieParser());
 
+
+// routes import
+
+import userRouter from "./routes/user.routes.js"
+
+// routes declaration
+app.use("/api/v1/users", userRouter)
+
+// http://localhost:8000/api/v1/users/register
+
 // Export the express app instance so it can be used in other files (e.g. index.js for starting server)
 export { app };
